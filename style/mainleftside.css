@@ -60,3 +60,36 @@
 .aboutitem ul {
   list-style: disc;
 }
+.price-text {
+  font-size: 18px;
+  color: var(--pricetext);
+}
+.brand {
+  color: var(--brand);
+  text-decoration: none;
+}
+.main hr {
+  margin: 14px 0;
+}
+.gray {
+  color: gray;
+}
+.margin10 {
+  margin: 10px 0;
+}
+.specs ul li {
+  margin: 10px 20px;
+}
+.font16 {
+  font-size: 16px;
+}
+.aboutitem ul li {
+  margin: 8px;
+  font-size: 14px;
+}
+.sidenavbar {
+  border: 1px solid black;
+}
+.sidenavbar p {
+  margin: 20px;
+}
