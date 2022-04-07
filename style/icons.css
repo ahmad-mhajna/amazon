@@ -1,3 +1,17 @@
 .cart {
-  background-image: url(/icons/lZnO6IKWusCAeIh.png);
+  width: 46px;
+  height: 44px;
+  background: url(/icons/navbar.png) -12px -326px;
+}
+.loc {
+  padding: 8px 0 0;
+  width: 15px;
+  height: 18px;
+  background: url(/icons/navbar.png) -70px -306px;
+}
+.logo {
+  padding: 1px 8px 0 6px;
+  width: 113px;
+  height: 50px;
+  background: url(/icons/navbar.png) 0 -38px;
 }
