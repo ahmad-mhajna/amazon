@@ -12,8 +12,9 @@ nav * {
   --navbarcolor2: rgb(35, 47, 62);
   --navbarcolor3: rgb(250, 250, 250);
   --buynow: rgb(255, 164, 28);
-  --price: rgb(177, 39, 4);
+  --pricetext: rgb(177, 39, 4);
   --navbartext3: #333;
+  --brand: #007185;
 }
 .nav-left {
   width: 224px;
