@@ -23,16 +23,42 @@
           <a href="#" class="logo"></a>
           <a href="#" class="item">
             <div class="loc"></div>
-            <span>Deliver to</span>
-            <span>Israel</span>
+            <span>Deliver to <span class="font14">Israel</span></span>
           </a>
         </div>
         <div class="nav-2 searchbox dflex">
           <div class="box">
             <div class="dflex">
-              <button class="all" type="button">
-                All<i class="fa-solid fa-sort-down"></i>
-              </button>
+              <select name="all" id="all" class="all">all
+                <option selected="selected" value="search-alias=aps">All Departments</option>
+                <option value="search-alias=arts-crafts-intl-ship">Arts &amp; Crafts</option>
+                <option value="search-alias=automotive-intl-ship">Automotive</option>
+                <option value="search-alias=baby-products-intl-ship">Baby</option>
+                <option value="search-alias=beauty-intl-ship">Beauty &amp; Personal Care</option>
+                <option value="search-alias=stripbooks-intl-ship">Books</option>
+                <option value="search-alias=fashion-boys-intl-ship">Boys' Fashion</option>
+                <option value="search-alias=computers-intl-ship">Computers</option>
+                <option value="search-alias=deals-intl-ship">Deals</option>
+                <option value="search-alias=digital-music">Digital Music</option>
+                <option value="search-alias=electronics-intl-ship">Electronics</option>
+                <option value="search-alias=fashion-girls-intl-ship">Girls' Fashion</option>
+                <option value="search-alias=hpc-intl-ship">Health &amp; Household</option>
+                <option value="search-alias=kitchen-intl-ship">Home &amp; Kitchen</option>
+                <option value="search-alias=industrial-intl-ship">Industrial &amp; Scientific</option>
+                <option value="search-alias=digital-text">Kindle Store</option>
+                <option value="search-alias=luggage-intl-ship">Luggage</option>
+                <option value="search-alias=fashion-mens-intl-ship">Men's Fashion</option>
+                <option value="search-alias=movies-tv-intl-ship">Movies &amp; TV</option>
+                <option value="search-alias=music-intl-ship">Music, CDs &amp; Vinyl</option>
+                <option value="search-alias=pets-intl-ship">Pet Supplies</option>
+                <option value="search-alias=instant-video">Prime Video</option>
+                <option value="search-alias=software-intl-ship">Software</option>
+                <option value="search-alias=sporting-intl-ship">Sports &amp; Outdoors</option>
+                <option value="search-alias=tools-intl-ship">Tools &amp; Home Improvement</option>
+                <option value="search-alias=toys-and-games-intl-ship">Toys &amp; Games</option>
+                <option value="search-alias=videogames-intl-ship">Video Games</option>
+                <option value="search-alias=fashion-womens-intl-ship">Women's Fashion</option>
+              </select>
               <input type="text" /><button class="search" type="sumbit">
                 <i class="fa-solid fa-magnifying-glass"></i>
               </button>
@@ -41,8 +67,7 @@
         </div>
         <div class="nav-3 right dflex">
           <div class="item">
-            <i class="fa-solid fa-flag"></i>
-            <i class="fa-solid fa-sort-down"></i>
+            <div class="flag"></div>
           </div>
           <div class="item">
             <p>Hello,</p>
@@ -88,36 +113,39 @@
       </nav>
     </header>
     <div class="smallback">
-      <ul>
-        <a href="#">Toys & Games›Toy Figures & Playsets›Action Figures</a>
-      </ul>
+        <a href="#">Toys & Games</a> <span>›</span> <a href="#">Toy Figures & Playsets</a> <span>›</span> <a href="">Action Figures</a>
+    </div>
+
     <section class="main">
+      <section class="leftmain">
+        <div class="gallery">
+        <img src="/img/small001.jpg" alt="small001">
+        <div class="bigphoto">
+          <img src="/img/big001.jpg" alt="001" />
+          <p>Roll over image to zoom in</p>
       </div>
-      <div class="photo">
-        <div class="gallery"></div>
-        <div class="bigphoto"></div>
-        <p>Roll over image to zoom in</p>
-      </div>
+    </div>
       <div class="mid">
         <div class="miditemname">
           <div class="itemname">
             <span>POP TV: Squid Game- Player 001:Oh il-NAM Multicolor</span>
             <div class="brand"><a href="#">Visit the POP Store</a></div>
           </div>
+          <hr>
           <div class="priceinfo">
-            <p>price</p>
-            <p>$11.99</p>
+            <p>price <span class="price-text">$11.99</span></p>
             <p>
               No Import Fees Deposit & $12.60 Shipping to Israel
               <a href="#"> Details</a>
             </p>
             <p>Pre-order Price Guarantee. <a href="#"> Details</a></p>
+            <div class="specs">
             <ul class="specs1">
               <li>Color</li>
               <li>Brand</li>
               <li>Material</li>
               <li>Collection Name</li>
-              <li>Item Dimensions LxWxH<</li>
+              <li>Item Dimensions LxWxH</li>
             </ul>
 
             <ul class="specs2">
@@ -128,6 +156,8 @@
               <li>2.5 x 2.5 x 3.75 inches</li>
             </ul>
           </div>
+        </div>
+        <hr>
           <div class="aboutitem">
             <p>About this item</p>
             <ul>
@@ -135,23 +165,26 @@
               <li>Brand: Funko</li>
               <li>tem Package Weight: 0.25 pounds</li>
             </ul>
-            <a href="#">New & Used (8) from $11.99</a>
+            <a href="#">New & Used (8) from <span class="price-text">$11.99</span></a>
           </div>
         </div>
       </div>
-      <div class="sidenavbar">
-        <p class="price">$11.99</p>
+    </section>
+
+      <section class="rightmain">  
+            <div class="sidenavbar">
+        <p class="price-text  ">$11.99</p>
         <p>
           No Import Fees Deposit & $12.60 Shipping to Israel
           <a href="#"> Details</a>
         </p>
         <p>This item ships to Israel</p>
-        <span class="loc"></span><a href="#">Deliver to Israel</a>
+        <a href="#"><span class="loc"></span>Deliver to Israel</a>
         <h2>This item will be released on May 25, 2022.</h2>
         <p>Pre-order now.</p>
         <select name="order" id="order"></select>
         <button class="Preorder"></button>
-      </div>
+      </section>
     </section>
   </body>
 </html>

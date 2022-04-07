@@ -2,8 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: white;
   font-family: Arial, Helvetica, sans-serif;
+}
+nav * {
+  color: white;
 }
 :root {
   --navbarcolor: rgb(19, 25, 33);
@@ -17,10 +19,6 @@
   width: 224px;
   height: 60px;
 }
-/* nav-2 {
-  width: 1177px;
-  height: 60px;
-} */
 nav {
   background-color: var(--navbarcolor);
   display: flex;
@@ -28,20 +26,25 @@ nav {
   align-items: center;
   padding: 4px 15px 4px 10px;
 }
+
+.box {
+  width: 100%;
+}
 .dflex {
   display: flex;
   align-items: center;
+  width: fit-content;
 }
 .item {
-  width: 120px;
-  height: 50px;
+  width: fit-content;
+  height: fit-content;
   padding: 10px 10px;
 }
 .item:hover {
   border: 1px solid white;
   border-radius: 2px;
 }
-a {
+nav a {
   display: flex;
   text-align: center;
   align-items: center;
@@ -109,7 +112,7 @@ nav.subnav2 li {
   align-items: center;
   justify-content: space-around;
 }
-ul li {
+nav ul li {
   list-style: none;
   font-weight: 500;
   padding: 1px 5px;
@@ -117,6 +120,9 @@ ul li {
 }
 nav .submenu i {
   font-size: 16px;
+}
+.font14 {
+  font-size: 14px;
 }
 /* .li {
   margin: -5px;

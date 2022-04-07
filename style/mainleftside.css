@@ -1,7 +1,62 @@
+.smallback a {
+  color: var(--navbartext3);
+}
+.smallback {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 20px;
+  font-size: 14px;
+}
 .main {
   height: 130vh;
-  width: 85%;
+  width: 90%;
   margin: auto;
   background-color: white;
   display: flex;
+}
+.leftmain {
+  height: 100%;
+  width: 80%;
+  display: flex;
+}
+.rightmain {
+  height: 100%;
+  width: 19%;
+}
+.leftmain .mid {
+  color: #000;
+}
+
+.gallery > img {
+  height: 40px;
+  width: 40px;
+  border: 1px solid #e77600;
+  box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+}
+.gallery {
+  display: flex;
+  text-align: center;
+}
+.gallery p {
+  color: #565959;
+  font-size: 14px;
+}
+.bigphoto {
+  width: 613px;
+  padding: 0 15%;
+}
+.bigphoto img {
+  width: 100%;
+}
+.itemname > span {
+  font-size: 24px;
+}
+.specs {
+  display: flex;
+}
+.specs ul {
+  list-style-type: none;
+}
+.aboutitem ul {
+  list-style: disc;
 }
