@@ -1,5 +1,7 @@
 .main {
   height: 130vh;
-  width: 70%;
-  background-color: black;
+  width: 85%;
+  margin: auto;
+  background-color: white;
+  display: flex;
 }
