@@ -53,6 +53,13 @@
 }
 .specs {
   display: flex;
+  font-size: 14px;
+}
+ul.specs1 {
+  font-weight: bold;
+}
+.specs ul.specs1 li {
+  margin-left: 0;
 }
 .specs ul {
   list-style-type: none;
@@ -86,10 +93,4 @@
 .aboutitem ul li {
   margin: 8px;
   font-size: 14px;
-}
-.sidenavbar {
-  border: 1px solid black;
-}
-.sidenavbar p {
-  margin: 20px;
 }

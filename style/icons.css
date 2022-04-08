@@ -4,9 +4,10 @@
   background: url(/icons/navbar.png) -10px -340px;
 }
 .loc {
-  width: 21px;
-  height: 19.5px;
-  background: url(/icons/navbar.png) -71.2px -306px;
+  margin-top: 25px;
+  width: 15px;
+  height: 15.5px;
+  background: url(/icons/navbar.png) -71.2px -379.1px;
 }
 .logo {
   padding: 1px 8px 0 6px;

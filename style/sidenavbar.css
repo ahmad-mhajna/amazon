@@ -1,0 +1,73 @@
+.rightmain {
+  width: 15%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+.sidenavbar {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 0 20px;
+}
+.sidenavbar p,
+.sidenavbar h2,
+.sidenavbar i,
+.select-container {
+  margin: 10px 0;
+}
+
+.select-container {
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+}
+.select-container select {
+  width: 60px;
+  text-align: center;
+  border-radius: 3px;
+}
+.select-container label {
+  position: absolute;
+  /* margin-left: 0.5rem; */
+}
+.new-used {
+  margin: 20px 0;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.share {
+  font-size: 20px;
+}
+.share i {
+  width: 20px;
+  height: 20px;
+}
+.share :first-child {
+  color: rgb(108, 120, 120);
+}
+
+.share :nth-child(2) {
+  color: blue;
+}
+.share :nth-child(3) {
+  color: rgb(104, 173, 211);
+}
+.share :last-child {
+  color: rgb(223, 34, 9);
+}
+.btn {
+  border-radius: 20px;
+  border: solid 5px transparent;
+}
+.Preorder {
+  background-color: var(--Preorder);
+  width: 90%;
+}
+.Preordersmall {
+  background-color: var(--smallbtn);
+}
+.othersellers {
+  margin: 30px 0;
+  border: 1px solid black;
+  border-radius: 10px;
+}
