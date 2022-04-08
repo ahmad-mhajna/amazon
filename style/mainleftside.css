@@ -17,6 +17,8 @@
 .leftmain {
   height: 100%;
   width: 80%;
+}
+.topleft {
   display: flex;
 }
 .rightmain {

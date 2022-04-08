@@ -28,12 +28,32 @@
 }
 .select-container label {
   position: absolute;
-  /* margin-left: 0.5rem; */
+}
+.checkbox-container {
+  display: flex;
+}
+.add-btn {
+  font-size: 14px;
+  padding: 6px 10px;
+  margin-bottom: 12px;
+  width: 100%;
+  text-align: left;
+  background-color: #ebedf0;
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .new-used {
+  padding: 10px 0px 10px 10px;
   margin: 20px 0;
-  border: 1px solid black;
+  border: 1px solid gray;
   border-radius: 5px;
+}
+.new-used i {
+  cursor: pointer;
+}
+.new-used p {
+  font-size: 14px;
 }
 .share {
   font-size: 20px;
@@ -61,13 +81,48 @@
 }
 .Preorder {
   background-color: var(--Preorder);
-  width: 90%;
+  width: 100%;
+  padding: 4px 0;
+}
+.Preorder:hover,
+.Preordersmall:hover {
+  background-color: var(--Preorder-Hover);
+  cursor: pointer;
+}
+.seller {
+  display: flex;
+  align-items: center;
+}
+.sellercontainer:hover .name {
+  color: var(--Preorder);
+}
+p {
+  padding: 0 10px;
 }
 .Preordersmall {
   background-color: var(--smallbtn);
+  margin-left: auto;
 }
 .othersellers {
   margin: 30px 0;
-  border: 1px solid black;
+  border: 1px solid gray;
   border-radius: 10px;
+}
+.othersellers .title {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+.sellcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sellbtn {
+  font-size: 12px;
+  padding: 7px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 0 0 3px 0.5px #bbb8;
 }

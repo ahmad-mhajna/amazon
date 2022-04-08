@@ -169,6 +169,7 @@
 
     <section class="main">
       <section class="leftmain">
+        <div class="topleft">
         <div class="gallery">
           <img src="/img/small001.jpg" alt="small001" />
           <div class="bigphoto">
@@ -203,7 +204,7 @@
                   <li>Collection Name</li>
                   <li>Item Dimensions LxWxH</li>
                 </ul>
-
+                
                 <ul class="specs2">
                   <li>Multicolor</li>
                   <li>POP</li>
@@ -217,9 +218,10 @@
             <div class="aboutitem">
               <p class="font16 margin10">About this item</p>
               <ul>
+
                 <li>Package Dimensions: 4.6 L x 6.4 H x 3.6 W (inches)</li>
                 <li>Brand: Funko</li>
-                <li>tem Package Weight: 0.25 pounds</li>
+                <li>Item Package Weight: 0.25 pounds</li>
               </ul>
               <a href="#" class="brand"
                 >New & Used (8) from <span class="price-text">$11.99</span></a
@@ -227,6 +229,7 @@
             </div>
           </div>
         </div>
+      </div>
       </section>
 
       <section class="rightmain">
@@ -268,13 +271,15 @@
               receipt
             </span>
           </p>
-          <button type="checkbox"></button
-          ><span> Add a gift receipt for easy returns</span>
+          <div class="checkbox-container">
+          <input type="checkbox">
+         <span> Add a gift receipt for easy returns</span>
+        </div>
           <hr />
-          <button>Add to list</button>
+          <button class="add-btn">Add to list</button>
         </div>
         <div class="new-used">
-          <p>New & Used (8) from <span class="pricetext"> $11.99</span></p>
+          <p>New & Used (8) from <span class="price-text"> $11.99</span> <i class="fas fa-chevron-right"></i></p>
         </div>
         <p class="share">
           Share
@@ -284,28 +289,40 @@
           <i class="fa-brands fa-pinterest"></i>
         </p>
         <div class="othersellers">
-          <p>Other Sellers on Amazon</p>
+          <p class="title">Other Sellers on Amazon</p>
           <hr>
-          <p>
+          <div class="sellercontainer">
+          <p class="seller">
             <span class="price-text">$11.99</span>
             <button class="Preordersmall btn">Pre-order</button>
           </p>
-          <p>Sold by: Kaelaskollectibles</p>
+          <p>Sold by:  <span class="name">Kaelaskollectibles</span></p>
+        </div>
           <hr>
-          <p>
+          <div class="sellercontainer">
+
+          <p class="seller">
             <span class="price-text">$13.96</span>
             <button class="Preordersmall btn">Pre-order</button>
           </p>
-          <p>Sold by: Sliding Monkey</p>
+          <p>Sold by: <span class="name">Sliding Monkey</span></p>
+        </div>
+
           <hr>
-          <p>
+          <div class="sellercontainer">
+
+          <p class="seller">
             <span class="price-text">$14.99</span>
             <button class="Preordersmall btn">Pre-order</button>
           </p>
-          <p>Sold by: AlphaBetaFish LLC</p>
+          <p>Sold by: <span class="name"> AlphaBetaFish LLC</span></p>
         </div>
+
+        </div>
+        <div class="sellcontainer">
         <p>Have one to sell?</p>
         <button class="sellbtn">Sell on Amazon</button>
+      </div>
       </section>
     </section>
   </body>
