@@ -124,3 +124,6 @@ ul.specs1 {
   display: flex;
   align-items: center;
 }
+.iphone {
+  display: none;
+}
