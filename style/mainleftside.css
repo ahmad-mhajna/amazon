@@ -116,9 +116,14 @@ ul.specs1 {
   height: 100%;
 }
 .arrows span {
-  width: 34px;
-  height: 37px;
-  border: #000 solid 2px;
+  padding: 0.5rem 0.7rem;
+  border: gray solid 1px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0.2px #80808055;
+}
+.arrows span:hover {
+  cursor: pointer;
+  background-color: #eee;
 }
 .top-biw {
   display: flex;
