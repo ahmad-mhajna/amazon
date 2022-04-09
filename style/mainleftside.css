@@ -96,3 +96,27 @@ ul.specs1 {
   margin: 8px;
   font-size: 14px;
 }
+.featured {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxs {
+  height: 100%;
+  width: 17%;
+  margin: 0 8px;
+  display: flex;
+  flex-direction: column;
+}
+.arrows {
+  height: 100%;
+}
+.arrows span {
+  width: 34px;
+  height: 37px;
+  border: #000 solid 2px;
+}
+.top-biw {
+  display: flex;
+  align-items: center;
+}
