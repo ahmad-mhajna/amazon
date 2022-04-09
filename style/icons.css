@@ -20,3 +20,9 @@
   height: 12.2px;
   background: url(/icons/counters.png) -18.5px -72px;
 }
+.stars {
+  width: 84px;
+  height: 19px;
+  background: url(/icons/stars.png) -82px -25px;
+  display: inline-block;
+}

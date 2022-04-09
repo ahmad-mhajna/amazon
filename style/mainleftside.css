@@ -4,8 +4,12 @@
 .smallback {
   width: 90%;
   margin: auto;
+  margin-top: 10px;
   padding-bottom: 20px;
   font-size: 14px;
+}
+.smallback a {
+  text-decoration: none;
 }
 .main {
   height: 130vh;

@@ -17,6 +17,7 @@ nav * {
   --navbartext3: #333;
   --brand: #007185;
   --smallbtn: rgb(255, 216, 20);
+  --brand-color: rgb(204, 102, 0);
 }
 .nav-left {
   width: 224px;
@@ -127,13 +128,13 @@ nav .submenu i {
 .font14 {
   font-size: 14px;
 }
-/* .li {
-  margin: -5px;
-} */
-/* .bg {
-  position: relative;
-  padding: 6px 6px;
-  margin: 5px 0;
-  margin-right: 10px;
-  background-color: rgb(247, 155, 80);
-} */
+.brand:hover,
+.subnav2 a li:hover {
+  color: var(--brand-color);
+  cursor: pointer;
+}
+.subnav2 a li:hover,
+.text-d-underline:hover,
+.smallback a:hover {
+  text-decoration: underline;
+}
