@@ -61,6 +61,7 @@
 .share i {
   width: 20px;
   height: 20px;
+  cursor: pointer;
 }
 .share :first-child {
   color: rgb(108, 120, 120);

@@ -48,6 +48,12 @@ nav {
   border: 1px solid white;
   border-radius: 2px;
 }
+.cart h3 {
+  position: relative;
+  left: 1rem;
+  bottom: 0.5rem;
+  color: var(--Preorder);
+}
 nav a {
   display: flex;
   text-align: center;
@@ -85,8 +91,24 @@ nav button {
   cursor: pointer;
 }
 nav .all {
-  background: #ddd;
+  background: #fff;
   border-radius: 5px 0 0 5px;
+  color: #333;
+  font-size: 14px;
+  width: 50px;
+  height: 4.3vh;
+  z-index: 1;
+}
+.all option {
+  background-color: white;
+  color: black;
+}
+.all:hover,
+.all:focus {
+  background-color: #e5e5e5;
+}
+.all:focus {
+  outline: 3px solid var(--Preorder);
 }
 nav .search {
   padding: 10px 17px;
@@ -125,6 +147,9 @@ nav ul li {
 nav .submenu i {
   font-size: 16px;
 }
+.loc ~ span span.font14 {
+  font-weight: bold;
+}
 .font14 {
   font-size: 14px;
 }
@@ -137,4 +162,8 @@ nav .submenu i {
 .text-d-underline:hover,
 .smallback a:hover {
   text-decoration: underline;
+}
+.space {
+  color: transparent;
+  display: none;
 }

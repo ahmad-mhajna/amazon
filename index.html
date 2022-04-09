@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="/style/mainleftside.css" />
     <link rel="stylesheet" href="/style/sidenavbar.css" />
     <link rel="stylesheet" href="/style/icons.css" />
+    <link rel="icon" href="/icons/amazon.png" type="image/icon type" />
+    
     <script
       src="https://kit.fontawesome.com/87c6bd0636.js"
       crossorigin="anonymous"
@@ -32,8 +34,8 @@
           <div class="box">
             <div class="dflex">
               <select name="all" id="all" class="all">
-                all
-                <option selected="selected" value="search-alias=aps">
+                <option value="All" hidden selected>All</option>
+                <option value="search-alias=aps">
                   All Departments
                 </option>
                 <option value="search-alias=arts-crafts-intl-ship">
@@ -43,7 +45,7 @@
                   Automotive
                 </option>
                 <option value="search-alias=baby-products-intl-ship">
-                  Baby
+                  Baby  
                 </option>
                 <option value="search-alias=beauty-intl-ship">
                   Beauty &amp; Personal Care
@@ -116,7 +118,10 @@
         </div>
         <div class="nav-3 right dflex">
           <div class="item">
-            <div class="flag"></div>
+           <div> 
+             <p class="flag"></p>
+             <span><i class="fa-solid fa-caret-down"></i></span>
+          </div>
           </div>
           <div class="item">
             <p>Hello, Sign in</p>
@@ -127,7 +132,7 @@
             <h5>& order</h5>
           </div>
           <div class="item">
-            <div class="cart"></div>
+            <div class="cart"><h3>0</h3></div>
             <span>Cart</span>
           </div>
         </div>
@@ -238,7 +243,7 @@
   <div class="total-price"><p>Total price: <span class="price-text">$35.97</span></p><button class="Preordersmall btn">Add all three to Cart</button></div>
 </div>
 <div class="bottom-biw">
-  <p>Some of these items ship sooner than the others. <span class="brand">
+  <p><p class="Exclamation-mark"></p>Some of these items ship sooner than the others. <span class="brand">
   Show details</span></p>
   <p>          <input type="checkbox">This item: POP TV: Squid Game- Player 001:Oh il-NAM Multicolor
     <span class="price-text">$11.99</span>
@@ -421,5 +426,6 @@
       </div>
       </section>
     </section>
+    <script src="./js/index.js"></script>
   </body>
 </html>
