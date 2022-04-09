@@ -1,7 +1,6 @@
 const selectElement = document.querySelector("select.all");
 const calcWidth = () => {
   const text = selectElement.options[selectElement.selectedIndex].text;
-  console.log(text);
   const font = "14px Arial";
   const canvas = document.createElement("canvas");
   const context = canvas.getContext("2d");
@@ -12,8 +11,10 @@ const calcWidth = () => {
 };
 selectElement.addEventListener("change", calcWidth);
 const addToCart = () => {
-  const cartText = document.querySelector(".cart h3");
-  cartText.innerText = parseInt(cartText.innerText) + 1;
+  const cartTexts = document.querySelectorAll(".cart h3");
+  cartTexts.forEach((text) => {
+    text.innerText = parseInt(text.innerText) + 1;
+  });
 };
 const cartBtns = document.querySelectorAll(".btn");
 cartBtns.forEach((btn) => {
